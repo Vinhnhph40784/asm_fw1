@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "name": "gggg",
+      "year": 2000033333,
+      "tacgia": "hhhhh",
+      "price": 50222,
+      "id": 4
+    },
+    {
+      "name": "ffffff",
+      "year": 2222,
+      "price": 10000,
+      "tacgia": "fffff",
+      "id": 5
+    },
+    {
+      "name": null,
+      "year": 2027,
+      "tacgia": "ggggghh",
+      "price": 10000,
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "khanhhop",
+      "email": "khanhhop@gmail.com",
+      "password": "khanhhop"
+    },
+    {
+      "id": 2,
+      "name": "khanhhop",
+      "email": "khanhhop@gmail.com",
+      "password": "khanhhop"
+    },
+    {
+      "email": "hop@gmail.com",
+      "password": "$2a$10$zcvO8oY5fghI8g71dguoMOhHyHxqzmA6Sg2zATJ8Ac6pHTTkJRqva",
+      "name": "uytr",
+      "id": 3
+    },
+    {
+      "email": "hophin@gmail.com",
+      "password": "$2a$10$50AEISC9t58S0G5sGjjNguGvo0wQu/gtpcid/zXo0an.gcJvqzBz6",
+      "name": "jyhgtrf",
+      "id": 4
+    },
+    {
+      "email": "hop222@gmail.com",
+      "password": "$2a$10$KzRkls52VGEZ5TrtDIJiPuF16SRWuHUrc7DqERiDyRTei7R0miofu",
+      "name": "ấdfsbghfds",
+      "id": 5
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$bBQc8fKxXMBVME1wx8rVGOX0P1VHDQo6haFun2en0uBGNcNpgKUEK",
+      "id": 6
+    },
+    {
+      "email": "hvinh220604@gmail.com",
+      "password": "$2a$10$iRfpVfp2KESpsGpiDZ065uI/bk6G6IYT70esqbegKzbZAPGxOCrjm",
+      "name": "vinh",
+      "id": 7
+    },
+    {
+      "email": "vinhnhph40784@fpt.edu.vn",
+      "password": "$2a$10$v2lmDGeRM39V.zgl6zIlquvumuclHRH.cqJDt72rD2431HnJkvAka",
+      "name": "vinhgg",
+      "id": 8
+    }
+  ]
+}

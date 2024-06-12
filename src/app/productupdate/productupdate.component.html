@@ -1,0 +1,7 @@
+<form [formGroup] = "productform" (ngSubmit)=" onAddProduct()">
+    <input type="text" placeholder="Ten sach" formControlName="name"/>
+    <input type="number" placeholder="nam" formControlName="year"/>
+    <input type="number" placeholder="gia tien" formControlName="price"/>
+    <input type="text" placeholder="tac gia" formControlName="tacgia"/>
+<button type="submit">Sua san pham</button>
+</form>

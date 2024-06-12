@@ -1,0 +1,33 @@
+<p>Danh sach san pham</p>
+<table>
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>ten</th>
+      <th>nam</th>
+      <th>gia</th>
+      <th>tac gia</th>
+      <th>THAO TAC</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for(product of products; track product; let i = $index){
+    <tr>
+      <td>{{ i + 1 }}</td>
+      <td>{{ product.name }}</td>
+      <td>{{ product.year }}</td>
+      <td>{{ product.price }}</td>
+      <td>{{ product.tacgia }}</td>
+      <td>
+        <a href="book/add">them</a>
+      </td>
+      <td>
+        <button (click)="DeleteProduct(product.id)">xoa</button>
+      </td>
+      <td>
+        <a href="book/update/{{ product.id }}">sua</a>
+      </td>
+    </tr>
+    }
+  </tbody>
+</table>
